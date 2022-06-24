@@ -17,11 +17,6 @@ class Client(ABC):
         """
 
     @abstractmethod
-    def get_client(self,clienttype):
-        """
-        """
-
-    @abstractmethod
     def get_postprocess(self):
         """
         """
